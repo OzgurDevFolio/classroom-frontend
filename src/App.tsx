@@ -50,10 +50,10 @@ function App() {
                                         </Layout>
                                     }>
                                     <Route path="/" element={<Dashboard />} />
-                                </Route>
-                                <Route path="subjects">
-                                    <Route index element={<SubjectsList />} />
-                                    <Route path="create" element={<SubjectsCreate />} />
+                                    <Route path="subjects">
+                                        <Route index element={<SubjectsList />} />
+                                        <Route path="create" element={<SubjectsCreate />} />
+                                    </Route>
                                 </Route>
                             </Routes>
                             <Toaster />
