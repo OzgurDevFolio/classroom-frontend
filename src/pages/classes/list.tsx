@@ -139,6 +139,7 @@ const ClassesList = () => {
         ],
         pagination: {
             pageSize: 100,
+            mode: 'server',
         },
     })
 
